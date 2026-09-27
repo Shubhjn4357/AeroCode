@@ -1,0 +1,6 @@
+{
+  "name": "AeroCode",
+  "description": "A lightweight mobile-native IDE for creating Android/Jetpack Compose projects, editing code, building APKs, and visually editing Compose layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

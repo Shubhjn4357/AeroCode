@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Aerodynamic Jet Wings background glow -->
+        <path
+            android:pathData="M24,44 L54,30 L84,44 L78,60 L54,52 L30,60 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="24"
+                    android:startY="30"
+                    android:endX="84"
+                    android:endY="60"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#2238BDF8" />
+                    <item android:offset="1.0" android:color="#22818CF8" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Left Bracket < Wing -->
+        <path
+            android:pathData="M44,36 L30,54 L44,72 L49,67 L39,54 L49,41 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="36"
+                    android:endX="49"
+                    android:endY="72"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#38BDF8" />
+                    <item android:offset="1.0" android:color="#0284C7" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Right Bracket > Wing -->
+        <path
+            android:pathData="M64,36 L78,54 L64,72 L59,67 L69,54 L59,41 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="59"
+                    android:startY="36"
+                    android:endX="78"
+                    android:endY="72"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#818CF8" />
+                    <item android:offset="1.0" android:color="#4F46E5" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Center Supersonic Slash / Rocket Core -->
+        <path
+            android:pathData="M57,32 L51,32 L47,76 L53,76 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="47"
+                    android:startY="32"
+                    android:endX="57"
+                    android:endY="76"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#38BDF8" />
+                    <item android:offset="0.5" android:color="#FFFFFF" />
+                    <item android:offset="1.0" android:color="#A78BFA" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Speed streaks / Aero particles -->
+        <path
+            android:pathData="M40,28 L50,28 M58,80 L68,80"
+            android:strokeColor="#60A5FA"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
